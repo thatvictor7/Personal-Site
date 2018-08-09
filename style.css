@@ -1,0 +1,66 @@
+div.central {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url(./hs2.jpg); */
+  background-size: cover;
+  height: 100%;
+}
+body {
+  background-color: #333;
+    background-image: url(./hs2.jpg);
+    background-size: cover;
+
+}
+.fill {
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, 0.0); */
+}
+ .central, .navbar, navbar-expand {
+  /* background-color: rgba(255, 0, 0, 0.5); !important; */
+  border-color: blue;
+  border-width: 1px;
+}
+.logo {
+  height: 2em;
+}
+ul.navbar-nav li {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+.yut {
+  background-color: rgba(255, 0, 0, 0.5); !important;
+}
+.content img {
+  border: 1px solid white;
+}
+.content {
+  color: rgba(0,0,0,.5);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+  background-color: rgba(255,255,255, 0.5);
+  MARGIN-left: 25%;
+}
+.title {
+  font: 3em Helvetica;
+  color: white;
+  padding-top: 1em;
+  color: rgba(0,0,0,.5)
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-light .navbar-brand {
+  color: rgba(0,0,0,.5);
+}
