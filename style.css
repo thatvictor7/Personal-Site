@@ -47,7 +47,7 @@ ul.navbar-nav li {
   align-items: center;
   padding-top: 3em;
   background-color: rgba(255,255,255, 0.5);
-  MARGIN-left: 25%;
+  /* MARGIN-left: 25%; */
 }
 .title {
   font: 3em Helvetica;
@@ -63,4 +63,38 @@ ul.navbar-nav li {
 }
 .navbar-light .navbar-brand {
   color: rgba(0,0,0,.5);
+}
+.social {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4em;
+  /* width: 60%; */
+  /* background-color: white; */
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4em;
+}
+.social-icons img {
+  height: 2em;
+}
+.profile-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* align-self: baseline; */
+  flex-flow: column;
+  padding-top: 5%;
+}
+footer {
+  /* align-self: stretch; */
+    padding-top: 8%;
+}
+.bg-light {
+  background-color: rgb(21, 18, 38) !important;
 }
