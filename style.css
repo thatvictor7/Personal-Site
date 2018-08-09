@@ -3,6 +3,7 @@ div.central {
   align-items: center;
   justify-content: center;
 }
+
 .content {
   display: flex;
   align-items: center;
@@ -11,49 +12,62 @@ div.central {
   background-size: cover;
   height: 100%;
 }
+
 body {
   background-color: #333;
-    background-image: url(./hs2.jpg);
-    background-size: cover;
-
+  background-image: url(./hs2.jpg);
+  background-size: cover;
+  font-family: 'Quicksand' !important;
+  color: rgb(93, 168, 225) !important;
 }
+
+.title {
+  font-family: 'Quicksand' !important;
+  color: rgb(93, 168, 225) !important;
+}
+
 .fill {
   height: 100%;
   /* background-color: rgba(0, 0, 0, 0.0); */
 }
- .central, .navbar, navbar-expand {
+
+.central, .navbar, navbar-expand {
   /* background-color: rgba(255, 0, 0, 0.5); !important; */
   border-color: blue;
   border-width: 1px;
 }
+
 .logo {
   height: 2em;
 }
+
 ul.navbar-nav li {
   padding-left: 3vw;
   padding-right: 3vw;
 }
-.yut {
-  background-color: rgba(255, 0, 0, 0.5); !important;
-}
+
+/* .yut {
+  background-color: rgba(255, 0, 0, 0.5);
+   !important;
+} */
 .content img {
   border: 1px solid white;
 }
 .content {
-  color: rgba(0,0,0,.5);
+  /* color: rgba(0, 0, 0, .6); */
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 3em;
-  background-color: rgba(255,255,255, 0.5);
-  /* MARGIN-left: 25%; */
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 2%;
 }
 .title {
   font: 3em Helvetica;
   color: white;
   padding-top: 1em;
-  color: rgba(0,0,0,.5)
+  color: rgba(0, 0, 0, .5)
 }
 .profile {
   display: flex;
@@ -62,7 +76,7 @@ ul.navbar-nav li {
   align-items: center;
 }
 .navbar-light .navbar-brand {
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, .5);
 }
 .social {
   background-color: #f8f9fa;
@@ -92,9 +106,9 @@ ul.navbar-nav li {
   padding-top: 5%;
 }
 footer {
-  /* align-self: stretch; */
-    padding-top: 8%;
+  padding-top: 8%;
 }
-.bg-light {
-  background-color: rgb(21, 18, 38) !important;
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+  color: rgb(93, 168, 225);
 }
+.navbar-light .navbar-nav .nav-link {}
