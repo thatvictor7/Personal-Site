@@ -8,7 +8,6 @@ div.central {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-image: url(./hs2.jpg); */
   background-size: cover;
   height: 100%;
 }
@@ -20,7 +19,6 @@ body {
   font-family: 'Quicksand' !important;
   color: rgb(93, 168, 225) !important;
 }
-
 .title {
   font-family: 'Quicksand' !important;
   color: rgb(93, 168, 225) !important;
@@ -28,33 +26,23 @@ body {
 
 .fill {
   height: 100%;
-  /* background-color: rgba(0, 0, 0, 0.0); */
 }
 
 .central, .navbar, navbar-expand {
-  /* background-color: rgba(255, 0, 0, 0.5); !important; */
   border-color: blue;
   border-width: 1px;
 }
-
 .logo {
   height: 2em;
 }
-
 ul.navbar-nav li {
   padding-left: 3vw;
   padding-right: 3vw;
 }
-
-/* .yut {
-  background-color: rgba(255, 0, 0, 0.5);
-   !important;
-} */
 .content img {
   border: 1px solid white;
 }
 .content {
-  /* color: rgba(0, 0, 0, .6); */
   width: 50%;
   display: flex;
   justify-content: center;
@@ -62,6 +50,7 @@ ul.navbar-nav li {
   padding-top: 3em;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 2%;
+  height: 42vw;
 }
 .title {
   font: 3em Helvetica;
@@ -111,4 +100,31 @@ footer {
 .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
   color: rgb(93, 168, 225);
 }
-.navbar-light .navbar-nav .nav-link {}
+
+.social-icons:hover, nav-item:hover {
+  transition: 1s;
+  transform: scale(1.5,1.5);
+  background-color: rgba(0,0,0,0);
+}
+.about-info {
+  font-size: 1.3em;
+  width: 90%;
+  height: 80%;
+}
+.about-location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+padding-top: 1em;
+
+}
+.location-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2em;
+  padding-right: 2em;
+
+}
