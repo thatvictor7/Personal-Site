@@ -4,7 +4,7 @@
 the social media icons are also linked to the real websites.
 
 ## Deployment
- [https://instinctive-monkey.surge.sh]([https://instinctive-monkey.surge.sh])
+ [https://instinctive-monkey.surge.sh](https://instinctive-monkey.surge.sh)
 
 ## Wireframe
 
